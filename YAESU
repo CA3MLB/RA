@@ -1,0 +1,27 @@
+//CA3MLB- CD3MLB//
+
+YAESU FT-2900R/1900R
+
+IDBLOCK = "\x56\x43\x32\x33\x00\x02\xc7\x01\x01\x01"
+IDBLOCK = "\x56\x43\x32\x33\x00\x02\xc7\x01\x01\x01"
+IDBLOCK = "\x56\x43\x32\x33\x01\x02\xc7\x01\x01\x01"
+
+2900
+000: 56 43 32 33 01 02 c7 01   VC23....
+008: 01 01 00 00 00 00 00 00   ........
+
+1900
+000: 56 43 32 33 00 02 c7 01   VC23....
+008: 01 01 00 00 00 00 00 00   ........
+
+
+
+class FT2900Radio(YaesuCloneModeRadio):
+    """Yaesu FT-2900"""
+    VENDOR = "Yaesu"
+    MODEL = "FT-2900R/1900R"
+IDBLOCK = "\x56\x43\x32\x33\x01\x02\xc7\x01\x01\x01"
+IDBLOCK = "\x56\x43\x32\x33\x00\x02\xc7\X01\x01\x01"
+IDBLOCK = "\x56\x43\x32\x33\x00\x02\x46\x01\x01\x01"
+IDBLOCK = "\x56\x43\x32\x33\x00\x02\x41\x02\x01\x01"
+IDBLOCK = "\x56\x43\x32\x33\x00\x02\xc7\x01\x01\x01"
